@@ -152,6 +152,42 @@
       </div>
     </section>
 
+    <!-- Code Snippet Section -->
+    <section class="code-section reveal">
+      <div class="code-content">
+        <h2>Comprehensive Default Filtering.</h2>
+        <p>AutoSort comes completely pre-configured with over 40+ of the most popular file extensions natively mapped to
+          clean category folders. Customize these variables directly within the core config to tailor it exactly to your
+          needs.</p>
+      </div>
+      <div class="code-window">
+        <div class="code-header">
+          <div class="mac-btns">
+            <span class="mac-btn close"></span>
+            <span class="mac-btn minimize"></span>
+            <span class="mac-btn maximize"></span>
+          </div>
+          <div class="code-title">config.py</div>
+        </div>
+        <pre><code class="language-json">"categories": {
+    <span class="json-key">"Images"</span>: [<span class="json-str">".jpg"</span>, <span class="json-str">".jpeg"</span>, <span class="json-str">".png"</span>, <span class="json-str">".gif"</span>, <span class="json-str">".webp"</span>, <span class="json-str">".tiff"</span>, <span class="json-str">".svg"</span>, <span class="json-str">".ico"</span>],
+    <span class="json-key">"Documents"</span>: {
+        <span class="json-key">"Word"</span>: [<span class="json-str">".docx"</span>, <span class="json-str">".doc"</span>],
+        <span class="json-key">"PowerPoint"</span>: [<span class="json-str">".pptx"</span>, <span class="json-str">".ppt"</span>, <span class="json-str">".ppsx"</span>],
+        <span class="json-key">"PDF"</span>: [<span class="json-str">".pdf"</span>],
+        <span class="json-key">"Text"</span>: [<span class="json-str">".txt"</span>, <span class="json-str">".odt"</span>, <span class="json-str">".rtf"</span>],
+        <span class="json-key">"Excel"</span>: [<span class="json-str">".xls"</span>, <span class="json-str">".xlsx"</span>, <span class="json-str">".csv"</span>]
+    },
+    <span class="json-key">"Archives"</span>: [<span class="json-str">".zip"</span>, <span class="json-str">".rar"</span>, <span class="json-str">".7z"</span>, <span class="json-str">".tar"</span>, <span class="json-str">".gz"</span>],
+    <span class="json-key">"Videos"</span>: [<span class="json-str">".mp4"</span>, <span class="json-str">".mov"</span>, <span class="json-str">".avi"</span>, <span class="json-str">".mkv"</span>, <span class="json-str">".webm"</span>, <span class="json-str">".flv"</span>],
+    <span class="json-key">"Audio"</span>: [<span class="json-str">".mp3"</span>, <span class="json-str">".wav"</span>, <span class="json-str">".ogg"</span>, <span class="json-str">".flac"</span>, <span class="json-str">".aac"</span>],
+    <span class="json-key">"Setup"</span>: [<span class="json-str">".exe"</span>, <span class="json-str">".msi"</span>, <span class="json-str">".dmg"</span>],
+    <span class="json-key">"Code"</span>: [<span class="json-str">".py"</span>, <span class="json-str">".html"</span>, <span class="json-str">".css"</span>, <span class="json-str">".js"</span>, <span class="json-str">".php"</span>, <span class="json-str">".json"</span>, <span class="json-str">".java"</span>, <span class="json-str">".cpp"</span>],
+    <span class="json-key">"Temp"</span>: [<span class="json-str">".tmp"</span>, <span class="json-str">".crdownload"</span>, <span class="json-str">".part"</span>, <span class="json-str">".download"</span>, <span class="json-str">"cool"</span>]
+}</code></pre>
+      </div>
+    </section>
+
     <!-- FAQ Section -->
     <section class="faq-section" id="faq">
       <div class="section-head reveal">
@@ -273,5 +309,6 @@
     });
   </script>
 </body>
+
 
 </html>
